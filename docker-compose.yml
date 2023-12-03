@@ -12,6 +12,7 @@ services:
             - PASSWORD=${PASSWORD}
         ports:
             - ${PORT}:3000
+            - ${SSL_PORT}:3001
         volumes:
             - ./data:/config
         shm_size: 1gb
