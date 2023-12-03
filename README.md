@@ -18,3 +18,5 @@ Run docker:
 ```
 docker compose up -d
 ```
+Open browser and insert link:
+http://[IP OR DOMIAN]:[PORT]
