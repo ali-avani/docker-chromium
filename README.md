@@ -14,3 +14,7 @@ Edit configuration:
 cp .env.sample .env
 vim .env
 ```
+Run docker:
+```
+docker compose up -d
+```
